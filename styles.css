@@ -1,0 +1,55 @@
+/* ページ全体のスタイル */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#main {
+    font-size: 35px;
+}
+
+/* メモ一覧のスタイル */
+#memo-list {
+    float: left;
+    width: 30%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+#memo-title{
+    font-size: 25px;
+}
+/* メモ編集エリアのスタイル */
+#memo-edit {
+    float: right;
+    width: 70%;
+    height: 90vh;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+/* テキストエリアのスタイル */
+textarea {
+    width: 100%;
+    height: calc(100% - 80px);
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+/* ボタンのスタイル */
+button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    width: 20%;
+    height: 10vh;
+    font-size: 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* ボタン間の余白 */
+button + button {
+    margin-left: 0;
+}
